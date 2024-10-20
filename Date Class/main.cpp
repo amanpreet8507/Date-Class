@@ -6,9 +6,10 @@
 //
 
 #include <iostream>
+#include "Date.h"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+using namespace std;
+int main() {
+    Date date1(1,1,2020);
+    cout << date1.displayDate() << endl;
 }
